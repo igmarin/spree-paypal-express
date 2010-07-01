@@ -1,0 +1,30 @@
+---
+mx:
+  edit_paypal_info: Editar Informacion de Paypal Express
+  paypal_payment: Pago Paypal Express
+  paypal_txn_id: "Codigo de Transacción"
+  paypal_capture_complete: Paypal Transaction has been captured.
+  unable_to_capture_paypal: "No se puede capturar el código de transacción"
+  signature: Firma
+  order_not_yet_placed: "Tu orden <strong>no</strong> ha sido registrada, por favro revisa los detales y dale click en Confirmar para finalizar tu orden."
+  paypal_payment_id: PayPal ID de Pago
+  pending_reason: Estatus en Espera
+  result: Resultado
+  review: Revisar
+  no_shipping: "Sin Envío"
+  paypal_account: Cuenta de PayPal
+  payer_id: Payer ID
+  payer_country: País
+  payer_status: Estatus
+  comment: Comentario
+  account_details: Detalles de la Cuenta
+  finalize:
+    paypalexpress: Captura de Pago
+  activerecord:
+     attributes:
+       paypal_payment:
+         amount: Cantidad
+     models:
+       paypal_payment:
+         one: Pago de PayPal
+         other: Pagos de PayPal
