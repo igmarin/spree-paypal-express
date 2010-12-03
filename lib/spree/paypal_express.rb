@@ -223,8 +223,8 @@ module Spree::PaypalExpress
   # hook to override paypal site options
   def paypal_site_opts
     {
-     :currency => "MXN",
-     :notify_url  =>  nil 
+     :currency => "MXN"
+     #,:notify_url  =>  nil 
     }
   end
 
