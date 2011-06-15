@@ -50,7 +50,7 @@ Installation
 
 ###1. Add the following line to your application's Gemfile
 
-     gem "spree_paypal_express", :git => "git://github.com/spree/spree_paypal_express.git"
+     gem "spree_paypal_express", :git => "git://github.com/igmarin/spree-paypal-express.git"
 
 **Note:** The :git option is only required for the edge version, and can be removed to used the released gem.
 
