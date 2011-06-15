@@ -10,6 +10,7 @@ module SpreePaypalExpress
       #workaround for https://github.com/Shopify/active_merchant/issuesearch?state=open&q=paypal#issue/43
       require 'active_merchant'
       ActiveMerchant::Billing::PaypalExpressGateway
+      ActiveMerchant::Billing::PaypalExpressGateway.default_currency = 'MXN'
 
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
         Rails.env.production? ? require(c) : load(c)
